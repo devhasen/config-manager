@@ -1,0 +1,9 @@
+{
+  "name": "config-manager",
+  "version": "1.0.0",
+  "description": "Layered config manager with profiles, env override and validation",
+  "main": "dist/index.js",
+  "bin": { "cfg": "dist/index.js" },
+  "scripts": { "build": "tsc", "start": "node dist/index.js" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^20.0.0" }
+}
